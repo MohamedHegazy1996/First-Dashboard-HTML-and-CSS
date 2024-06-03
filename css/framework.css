@@ -1,0 +1,293 @@
+:root {
+  --main-color: #2196f3;
+  --main-color-alt: #1787e0;
+  --main-transition: 0.3s;
+  --main-padding-top: 100px;
+  --main-padding-bottom: 100px;
+  --section-background: #ececec;
+  --sec-section-bg:#eee;
+}
+/* Shapes */
+.btn-shape {
+  background: var(--main-color);
+  padding: 5px 10px;
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+}
+.btn {
+  padding: 5px 10px;
+  display: block;
+  width: fit-content;
+}
+/* ================================================================================ */
+/* Colors */
+.box-s {
+  box-shadow: 0 0 10px #ddd;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-green {
+  background-color: green;
+}
+.bg-blue {
+  background-color: blue;
+}
+.bg-orange {
+  background-color: orange;
+}
+.bg-white {
+  background-color: white;
+}
+.bg-alt-main {
+  background-color: var(--main-color-alt);
+}
+.bg-ee {
+  background-color: var(--sec-section-bg)
+}
+.bg-main {
+  background-color: var(--main-color);
+}
+.bg-f6 {
+  background-color: #f6f6f6;
+}
+.bg-ccc {
+  background-color: #ccc;
+}
+.c-black {
+  color: black;
+}
+.c-777 {
+  color: #777;
+}
+.c-white {
+  color: white;
+}
+.c-red {
+  color: red;
+}
+.c-green {
+  color: green;
+}
+.c-blue {
+  color: blue;
+}
+.c-orange {
+  color: orange;
+}
+.c-main {
+  color: var(--main-color);
+}
+.c-alt-main {
+  color: var(--main-color-alt);
+}
+/* ================================================================================ */
+/* padding */
+.pad-5 {
+  padding: 5px;
+}
+.pad-10 {
+  padding: 10px;
+}
+.pad-t10{
+  padding-top: 10px;
+}
+.pad-r10{
+  padding-right: 10px;
+}
+.pad-b10{
+  padding-bottom: 10px;
+}
+.pad-l10{
+  padding-left: 10px;
+}
+.pad-15 {
+  padding: 15px;
+}
+.pad-20 {
+  padding: 20px;
+}
+.pad-t20{
+  padding-top: 20px;
+}
+.pad-r20{
+  padding-right: 20px;
+}
+.pad-b20{
+  padding-bottom: 20px;
+}
+.pad-l20{
+  padding-left: 20px;
+}
+.pad-30 {
+  padding: 30px;
+}
+/* ================================================================================ */
+/* margin */
+.marg-t5 {
+  margin-top: 5px;
+}
+.marg-r5 {
+  margin-right: 5px;
+}
+.marg-b5 {
+  margin-bottom: 5px;
+}
+.marg-l5 {
+  margin-left: 5px;
+}
+.marg-10 {
+  margin: 10px;
+}
+.marg-t10 {
+  margin-top: 10px;
+}
+.marg-r10 {
+  margin-right: 10px;
+}
+.marg-b10 {
+  margin-bottom: 10px;
+}
+.marg-l10 {
+  margin-left: 10px;
+}
+.marg-20 {
+  margin: 20px;
+}
+.marg-t20 {
+  margin-top: 20px;
+}
+.marg-r20 {
+  margin-right: 20px;
+}
+.marg-b20 {
+  margin-bottom: 20px;
+}
+.marg-l20 {
+  margin-left: 20px;
+}
+.marg-t25 {
+  margin-top: 25px;
+}
+/* ================================================================================ */
+/* font size */
+.font-12 {
+  font-size: 12px;
+}
+.font-13 {
+  font-size: 13px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-25 {
+  font-size: 25px;
+}
+.font-bold {
+  font-weight: bold;
+}
+.font-nor {
+  font-weight: normal;
+}
+/* ================================================================================ */
+/* border */
+.rad-6 {
+  border-radius: 6px;
+}
+ .rad-10 {
+ border-radius: 10px; 
+} 
+.rad-50p {
+  border-radius: 50%;
+}
+/* ================================================================================ */
+/* flex */
+.d-flex {
+  display: flex;
+}
+.d-flex-sp-bet{
+  justify-content: space-between;
+}
+.d-f-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-g {
+  flex: 1;
+}
+.align-c {
+  align-items: center;
+}
+.txt-c {
+  text-align: center;
+}
+.txt-end {
+  text-align: end;
+}
+/* ================================================================================ */
+.d-block {
+  display: block;
+}
+.over-f-h {
+  overflow: hidden;
+}
+/* ================================================================================ */
+/* grid */
+.d-grid {
+  display: grid;
+}
+.d-g-3x {
+  display: grid;
+  grid-template-columns: repeat(auto-fill , minmax(300px , 1fr));
+}
+.gap-20 {
+  gap: 20px;
+}
+/* ================================================================================ */
+/* position */
+.p-relative {
+  position: relative;
+}
+/* ================================================================================ */
+/* width and heights */
+.w-fit {
+  width: fit-content;
+}
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+/* ================================================================================ */
+/* none  */
+.b-o-none {
+  border: none;
+  outline: none;
+}
+.border {
+  border: 1px solid #eee;
+}
+.border-b {
+  border-bottom: 1px solid #eee;
+}
+.border-ddd {
+  border: 1px solid #ddd;
+}
+/* ================================================================================ */
+/* Hover  */
+.change-bg {
+  transition: var(--main-transition);
+}
+.change-bg:hover {
+  background-color: var(--main-color-alt);
+}
+/* ================================================================================ */
+.cursor-p {
+  cursor: pointer;
+}
